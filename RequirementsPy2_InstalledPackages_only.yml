@@ -1,0 +1,7 @@
+name: py2
+channels:
+  - defaults
+dependencies:
+  - python=2.7
+  - scipy
+prefix: /Users/siqb0003/opt/anaconda3/envs/py2

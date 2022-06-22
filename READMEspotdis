@@ -1,0 +1,72 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;
+;                           SPOT-DISORDER-SINGLE
+;
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Hello user,
+Thank you for your interest in our predictor. SPOT-DISORDER-SINGLE requires 
+several python packages, please verify that they are installed before use:
+
+    tensorflow (v1.4)    ---> see https://www.tensorflow.org/install/
+    numpy
+    tqdm
+    pickle
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+USAGE:
+SPOT-DISORDER2-SINGLE requires no external predictors and should read your input 
+fasta/sequence files. 
+
+To run for a sample protein, please locate the target protein's fasta or 
+sequence file and run:
+
+    ./run_spotdis_single.py /path/to/fasta/or/seq.seq
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+EXTRA OPTIONS:
+There are several options that this predictor supports:
+
+    "--gpu 0"           use this command to utilise the GPU for testing. This 
+                        is set to -1 by default 
+    "--batch_size 10"   use this command to set the batch size for testing. For   
+                        datasets using larger proteins, reduce this number if 
+                        you encounter memory issues.
+    "--quiet 1"         use this command to silence the output
+    "--output_dir '/put/outputs/here/'" 
+                        use this command to set the output 
+                        directory to another directory other than where the 
+                        input file is located
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; 
+
+EXAMPLES:
+Another example, for running on an example protein directory:
+
+./run_spotdis_single.py --gpu 0 --batch_size 50 --quiet 1 --output_dir "/put/here/" /fasta/directory*fasta
+ 
+or without any options
+
+    ./run_spotdis_single.py /fasta/directory*fasta
+
+This will run over all fasta files in the directory /fasta/directory.
+
+For running over a text list of file locations, use this:
+
+    ./run_spotdis_single.py `cat /list/of/fasta/locations`
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+PLEASE CITE!:
+If you use this predictor in your research, please cite:
+
+Hanson, J., Paliwal, K., and Zhou, Y., Accurate Sequence-Based Prediction of Protein Disorder by an Ensemble of Deep Recurrent Architectures, 2018
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Thanks again!
+Jack Hanson and the Sparkslab team

@@ -1,0 +1,9 @@
+#WildType Position MutantType
+D 21 G
+A 24 V
+F 26 L
+Y 40 S
+S 78 I
+W 90 C
+S 98 F
+S 119 F
