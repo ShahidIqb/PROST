@@ -2,7 +2,8 @@
 
 A tool for predicting the effects of missense mutations on protein stability changes upon missense mutation using protein sequence only. PROST uses colab AlhpaFold2 for the prediction of pdb struture from FASTA sequence.
 
-![Screen Shot 2022-06-23 at 3 46 28 am](https://user-images.githubusercontent.com/48677766/175103136-67bba623-9db0-4b04-96d0-056ce419613e.png)
+![Screen Shot 2022-06-26 at 6 33 29 pm](https://user-images.githubusercontent.com/48677766/175806334-9ff17028-357c-4a72-a780-c5c7c5401988.png)
+
 
 
 Requirements: Listed separately as requirementsPy2*.txt and requirementsPy3*.txt for virtual environments. Install ColabFold on your PC from https://github.com/YoshitakaMo/localcolabfold
