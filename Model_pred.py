@@ -1,5 +1,3 @@
-import ml
-
 
 def read_mutfile(file_name):
     '''Reading mutation file'''
@@ -472,6 +470,7 @@ import joblib
 import Feature_extract
 from mutate_pdb import pdb_mutate
 from features import mCSM_features
+import ml
 import pickle
 import matplotlib.pyplot as plt
 
