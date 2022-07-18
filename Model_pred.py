@@ -6,7 +6,8 @@ def read_mutfile(file_name):
         for line in file:
             if line.startswith('#'):
                 continue
-            mut_list.append(line.strip().split(' '))
+            elif line.strip():
+                mut_list.append(line.strip().split(' '))
     file.close()
     return mut_list
 
