@@ -60,3 +60,7 @@ List of mutations
 
 
 **Internal files will be stored inside Gen_Files folder.
+
+**_Citation_:**
+
+Shahid Iqbal, Fang Ge, Fuyi Li, Tatsuya Akutsu, Yuanting Zheng, Robin B. Gasser, Dong-Jun Yu, Geoffrey I. Webb, Jiangning Song. PROST: AlphaFold2-aware Sequence-Based Predictor to Estimate Protein Stability Changes upon Missense Mutations. Journal of Chemical Information and Modeling, 2022, DOI:10.1021/acs.jcim.2c00799
