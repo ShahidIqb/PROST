@@ -63,4 +63,4 @@ List of mutations
 
 **_Citation_:**
 
-Shahid Iqbal, Fang Ge, Fuyi Li, Tatsuya Akutsu, Yuanting Zheng, Robin B. Gasser, Dong-Jun Yu, Geoffrey I. Webb, Jiangning Song. PROST: AlphaFold2-aware Sequence-Based Predictor to Estimate Protein Stability Changes upon Missense Mutations. Journal of Chemical Information and Modeling, 2022, DOI:10.1021/acs.jcim.2c00799
+Iqbal, Shahid, Fang Ge, Fuyi Li, Tatsuya Akutsu, Yuanting Zheng, Robin B. Gasser, Dong-Jun Yu, Geoffrey I. Webb, and Jiangning Song. "PROST: AlphaFold2-aware sequence-based predictor to estimate protein stability changes upon missense mutations." Journal of Chemical Information and Modeling 62, no. 17 (2022): 4270-4282.
